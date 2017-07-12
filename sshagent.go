@@ -24,7 +24,7 @@ import (
 	"net"
 	"os"
 
-	"golang.org/x/crypto/ssh/agent"
+	"github.com/kryptco/go-crypto/ssh/agent"
 )
 
 // New returns a new agent.Agent that uses a unix socket
